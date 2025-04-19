@@ -41,7 +41,7 @@ def butao():
 Base.metadata.create_all(bind = db)
 
 ctk.set_appearance_mode("dark")
-ctk.set_default_color_theme("dark-blue")
+ctk.set_default_color_theme("blue")
 
 janela = ctk.CTk()
 janela.geometry("500x300")
